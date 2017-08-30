@@ -11,7 +11,7 @@ Example:
 -> ~/Desktop/Homework/Assignment1$ ls
 myFile
 
-##How to run
+## How to run
 1. Add the following lines to ~/.bashrc to write to ~/.bashhistory automatically
       shopt -s histappend
       PROMPT_COMMAND="history -a;$PROMPT_COMMAND"
