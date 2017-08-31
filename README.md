@@ -13,8 +13,12 @@ myFile
 
 ## How to run
 1. Add the following lines to ~/.bashrc to write to ~/.bashhistory automatically
+      ```
       shopt -s histappend
       PROMPT_COMMAND="history -a;$PROMPT_COMMAND"
+      ```
 2. Save "follow.sh" on your computer
 3. Add the alias to your ~/.bashrc
+  ```
   alias follow='cd $(PATH_TO_FOLLOW.SH)'
+  ```
