@@ -24,5 +24,5 @@ myFile
       ```
 3. Add the alias to your ~/.bashrc
   ```
-  alias follow='cd $(PATH_TO_FOLLOW.SH)'
+  alias follow='cd $(PATH/TO/FOLLOW.SH)'
   ```
