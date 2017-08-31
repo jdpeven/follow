@@ -18,6 +18,10 @@ myFile
       PROMPT_COMMAND="history -a;$PROMPT_COMMAND"
       ```
 2. Save "follow.sh" on your computer
+      1. Make it executable
+      ```
+      chmod +x follow.sh
+      ```
 3. Add the alias to your ~/.bashrc
   ```
   alias follow='cd $(PATH_TO_FOLLOW.SH)'
