@@ -21,5 +21,5 @@ if [[ -d $last ]]
     then        
 	echo $last
     else
-        echo "error"
+        echo "."
 fi
