@@ -32,6 +32,7 @@ myFile
   line=$(tail -1 ~/.bash_history)
   ```
   will pull the last entry from the bashhistory
+  
 2. Then we will check to see if the last element in the command is '~', and replace it with $HOME
   ```
   if [ ${last:0:1} = "~" ]
